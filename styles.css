@@ -1,0 +1,102 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-image: linear-gradient(rgb(100, 30, 12),black, black,black, rgb(100, 30, 12));
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+.avatar{
+padding: 25px;
+text-align: center;
+font-weight: bolder;
+border: 5px dashed;
+border-image: linear-gradient(45deg, #ff5722, #ffeb3b, #4caf50, #2196f3)1;
+text-shadow: 0 0 5px white;
+}
+.img{
+height: 100px;
+width: 100px;
+}
+main{
+ padding-top: 50px;
+ padding-bottom: 75px;
+}
+.imbotext{
+ background-image: linear-gradient(Dodgerblue, magenta);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 5px blueviolet;
+}
+.hovertext:hover, h1:hover{
+  text-shadow: 0 0 5px white;
+  font-weight: bolder;
+}
+iframe{
+ border-image: linear-gradient(45deg, #ff5722, #ffeb3b, #4caf50, #2196f3)1;
+
+}
+h1 {
+ padding-bottom: 25px;
+}
+footer{
+ background-color: rgb(0, 0, 0);
+ position: fixed;
+ bottom: 0px;
+ left: 0px;
+ width: 100%;
+}
+
+.miniimg{
+height: 50px;
+width: 50px;
+padding: 10px;
+border: 5px solid;
+border-image: linear-gradient(45deg, #ff5722, #ffeb3b, #4caf50, #2196f3)1;
+}
+.kanal{
+padding-bottom: 5px;
+padding-left: 10px;
+}
+a{
+ color: white;
+ display: flex;
+}
+a:hover{
+ text-shadow: 0 0 5px white;
+  font-weight: bolder;
+}
+a:visited{
+background-image: linear-gradient(Dodgerblue, magenta);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 5px blueviolet;
+}
+.merch{
+ background-color: black;
+ height: 200px;
+ width: 150px;
+ justify-content: center;
+ display: flex;
+ color: white;
+ text-align: center;
+border: 5px solid;
+border-image: linear-gradient(45deg, #ff5722, #ffeb3b, #4caf50, #2196f3)1;
+margin-left:5px;
+margin-right:5px;
+margin-bottom: 20px;
+margin: 0 auto;
+}
+.merchimgs{
+ width: 100px;
+ height: 100px;
+ padding-top: 25px;
+}
+.merch:hover{
+text-shadow: 0 0 5px white;
+  font-weight: bolder;
+  box-shadow: 0 0 10px white;
+}
